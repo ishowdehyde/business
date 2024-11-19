@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+main {
+  padding: 20px;
+}
+
+.services {
+  margin-bottom: 30px;
+}
+
+.services h2 {
+  text-align: center;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.service {
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+  color: #4caf50;
+}
+
+.service ul {
+  list-style-type: disc;
+  margin: 10px 0 0 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  color: #4caf50;
+}
+
+.whasapp-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background: #25d366;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.whasapp-button:hover {
+  background: #1ebc53;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  .service {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .whasapp-button {
+    font-size: 0.9em;
+    padding: 8px 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 1.2em;
+  }
+
+  header p {
+    font-size: 0.9em;
+  }
+
+  .service {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  .whasapp-button {
+    font-size: 0.8em;
+    padding: 6px 10px;
+  }
+
+  footer {
+    font-size: 0.9em;
+  }
+}
